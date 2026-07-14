@@ -30,6 +30,7 @@ const ViewLabEntries = () => {
         <div>
             <NavBar />
             <h2 className="text-center p-5">View Logs</h2>
+            <div className="container">
             <table className="table table-hover">
                 <thead>
                     <tr>
@@ -62,6 +63,7 @@ const ViewLabEntries = () => {
                     )}
                 </tbody>
             </table>
+            </div>
         </div>
     )
 }
